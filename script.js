@@ -15,7 +15,7 @@ var trainer = false;
  */
 /* Main */
 function main(){
-    again = true;
+    let again = true;
         while (again == true){
             trainer = confirm("Would you like to play against the trainer?")
             playNim();
